@@ -2,6 +2,10 @@
 
 Turn a webcam feed or a video into live ASCII art, plus a small set of image filters, with CustomTkinter GUIs.
 
+![ASCII demo](samples/ascii_demo.png)
+
+*Output of `ascii_vid.py`'s converter run on a crop of an NDVI map from my [GIS project](https://github.com/Shaikh-Mohammad-Hasnat/NaviMumbai-Climate-Stress-Atlas).*
+
 ## What's inside
 
 | File | What it does |
@@ -11,7 +15,7 @@ Turn a webcam feed or a video into live ASCII art, plus a small set of image fil
 | `ascii_player.py` | Plays `video.mp4` as ASCII (put your own clip next to the script). Steps: open the video, convert to grayscale and resize, draw each pixel as a character from a brightness ramp on a blank canvas. |
 | `Video_filter_ctk.py` | Webcam filter GUI: negative, thresholding, contrast stretching, Laplacian, noise, histogram equalization and more. |
 | `image_to_dots.py` | Converts an image to an 80×80 grid of dots and blanks, thresholded by brightness. |
-| `samples/` | Example captures from the ASCII Webcam GUI. |
+| `samples/` | Example output. |
 
 ## How the ASCII conversion works
 
@@ -30,4 +34,4 @@ python Ascii_video_ctk.py
 - [OpenCV-Vision-Lab](https://github.com/Shaikh-Mohammad-Hasnat/OpenCV-Vision-Lab) for other real-time vision apps.
 
 ## Author
-Shaikh Mohammad Hasnat, [GitHub](https://github.com/Shaikh-Mohammad-Hasnat)
+Shaikh Mohammad Hasnat, [GitHub](https://github.com/Shaikh-Mohammad-Hasnat), [LinkedIn](https://www.linkedin.com/in/shaikh-mohammad-hasnat-698a08335)
