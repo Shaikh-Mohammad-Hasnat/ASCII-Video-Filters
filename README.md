@@ -2,7 +2,8 @@
 
 Turn a webcam feed or a video into live ASCII art, plus a small set of image filters, with CustomTkinter GUIs.
 
-![ASCII demo](samples/ascii_demo.png)
+<img width="1911" height="1200" alt="Screenshot 2026-03-12 211533" src="https://github.com/user-attachments/assets/1a8abd88-e929-4f19-bced-f597613ce4d3" />
+
 
 *Output of `ascii_vid.py`'s converter run on a crop of an NDVI map from my [GIS project](https://github.com/Shaikh-Mohammad-Hasnat/NaviMumbai-Climate-Stress-Atlas).*
 
